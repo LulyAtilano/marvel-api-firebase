@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Marvel API's </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Css Files
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />-->
+    </head>
+    <body>
+        
+        <input type="text" id="search">
+        <button type="button">Buscar</button>
+        
+        <div id="characters"></div>
+
+        <div id="template-content">
+            <div class="character">
+                <h3>{{name}}</h3>
+                <p>{{description}}</p>
+                <img style="max-width: 500px" src="{{img}}" alt="" />
+            </div>
+        </div>
+
+        <!-- Js Files -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="js/marvel.js"></script>
+    </body>
+</html>
